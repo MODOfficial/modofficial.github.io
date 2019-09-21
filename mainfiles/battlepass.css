@@ -1,0 +1,2509 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+
+*, html, li, a, body, h1, div, p, b, i, u
+{
+    font-family:'Radiance', 'arial', sans-serif;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+h1
+{
+    font-weight: normal;
+}
+
+body
+{
+    min-width: 1000px;
+}
+
+.Container
+{
+    background-position:top center;
+    background-repeat:no-repeat;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+    overflow: hidden;
+}
+
+
+.Content
+{
+    background-position:top center;
+    background-repeat:no-repeat;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+    width: 1000px;
+    box-sizing: content-box;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.Shield
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/shield.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.ShieldBig
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/shieldbig.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    padding-left: 1px;
+    padding-top: 25px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.Shield, .ShieldBig
+{
+    color: #027136;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:'Radiance-SemiBold';
+    text-shadow: 1px 1px 2px #111111;
+    display: inline-block;
+}
+
+.Level
+{
+    color: #027136;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:'Radiance-SemiBold';
+    text-shadow: 1px 2px 4px #111111;
+    letter-spacing: 2px;
+    width: 75px;
+    height: 80px;
+    padding-top: 26px;
+    text-align: right;
+    display: inline-block;
+    margin-right: -10px;
+}
+
+.LevelBig
+{
+    color: #027136;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:'Radiance-SemiBold';
+    text-shadow: 1px 1px 2px #111111;
+    letter-spacing: 2px;
+    width: 175px;
+    height: 80px;
+    padding-top: 26px;
+    text-align: right;
+    display: inline-block;
+    margin-right: -10px;
+}
+
+.LevelBlock
+{
+    width: 255px;
+}
+
+.DarkGrayDesc
+{
+    font-size: 16px;
+    color: #a28484;
+    text-align: left;
+    line-height: 24px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+h1.Gold
+{
+    font-family: 'Radiance-SemiBold';
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 5.5px;
+    color: #f8e6c7;
+    text-shadow: 0px 2px 6px rgba( 0, 0, 0, 255 );
+}
+
+h1.Gold.Big
+{
+    font-family: 'Radiance';
+    font-size: 64px;
+    letter-spacing: 12.5px;
+    text-shadow: 1px 3px 6px rgba( 0, 0, 0, 255 ), 1px 3px 6px rgba( 0, 0, 0, 255 );
+}
+
+h1.Silver
+{
+    text-transform: uppercase;
+    font-family: 'Radiance-SemiBold';
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 5.5px;
+    color: #d2d0cf;
+    text-shadow: 0px 2px 6px rgba( 0, 0, 0, 255 );
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+h1.SilverMOD
+{
+    text-transform: uppercase;
+    font-family: 'Finger Paint';
+    font-size: 150px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 5.5px;
+    color: white;
+	text-shadow:0 0 20px white;
+	margin-top: -50px;
+}
+
+h3.New
+{
+    font-family: 'Radiance-SemiBold';
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #f8e6c7;
+    letter-spacing: 2px;
+}
+
+h3.NewMOD
+{
+    font-family: 'Finger Paint';
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	margin-top: -560px;
+	margin-left: 100px;
+	horizontal-align: center;
+	color: red;
+	text-shadow:0 0 20px red;
+}
+
+h3.NewNext
+{
+    font-family: 'Finger Paint';
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	horizontal-align: center;
+	margin-left: 400px;
+	width: 700px;
+	color: #f8e6c7;
+	text-shadow:0 0 20px #f8e6c7;
+	margin-top: -50px;
+}
+
+h3.White, b.White
+{
+    font-family: 'Radiance-SemiBold';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #d2d0cf;
+    letter-spacing: 1.7px;
+    padding-top: 1px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+h1.PrizePool
+{
+    font-size: 80px;
+    letter-spacing: 7px;
+    color: #d2d0cf;
+    text-shadow: 2px 2px 8px #000000;
+    margin-top: 56px;
+}
+
+h2.PrizePool
+{
+    font-family: 'Radiance-SemiBold';
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #d2d0cf;
+    text-shadow: 2px 2px 8px #000000;
+    text-transform: uppercase;;
+}
+
+p.PrizePool
+{
+    padding-top: 26px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #beb5ae;
+    font-size: 20px;
+    line-height: 32px;
+
+    text-shadow: 2px 2px 8px #000000;
+}
+
+p.Exclusive
+{
+    padding-top: 2px;
+    font-size: 16px;
+    color: #808d7b;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+p.Footnote
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    color: #027136;
+    font-family: 'Radiance-SemiBold';
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+
+.Content.NewBlocks
+{
+    text-align: left;
+    padding-top: 90px;
+}
+
+.Content.NewBlock.Right
+{
+    text-align: left;
+    padding-top: 82px;
+}
+
+.Content.NewBlock.Center
+{
+    text-align: center;
+}
+
+.Content.NewBlock h3.New
+{
+    padding-left: 30px;
+}
+
+.Content.NewBlock h1.Silver
+{
+    padding-left: 27px;
+}
+
+.Content.NewBlock p.Desc
+{
+    padding-top: 10px;
+    padding-left: 29px;
+    width: 430px;
+    color: #7d7170;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.ThumbnailContainer
+{
+    position: absolute;
+    width: 303px;
+    text-align: left;
+}
+
+.ThumbnailContainer > a
+{
+    visibility: collapse;
+    display: block;
+    width: 100%;
+    height: 179px;
+}
+
+.ThumbnailContainer b
+{
+    margin-top: 14px;
+    padding-left: 3px;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    color: #D2D0CF;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    line-height: 24px;
+    font-family: 'Radiance-SemiBold';
+}
+
+.ThumbnailContainer p
+{
+    width: 298px;
+    margin-top: 7px;
+    padding-left: 3px;
+    font-size: 16px;
+    color: #7d7170;
+    line-height: 24px;
+}
+
+.ThumbnailContainer p a
+{
+    font-size: 16px;
+    color: #959595;
+    line-height: 24px;
+}
+
+.ThumbnailContainer p a:hover
+{
+    font-size: 16px;
+    color: #C5C5C5;
+    line-height: 24px;
+}
+
+.TauntBlock
+{
+    position: absolute;
+    text-align: left;
+}
+
+.TauntBlock i
+{
+    color: #d2d0cf;
+    font-size: 16px;
+}
+
+.TauntBlock p
+{
+    color: #c2bfbe;
+    font-size: 16px;
+    padding-left: 2px;
+}
+
+.LevelTextBlock
+{
+    position: absolute;
+    width: 100%;
+}
+
+.LevelTextBlock .LevelBlock
+{
+    margin-left: 57px;
+    float: left;
+}
+
+.LevelTextBlock .LevelBlock .Level
+{
+    padding-top: 30px;
+    margin-right: -15px;
+}
+
+.LevelTextBlock .DarkGrayDesc
+{
+    text-align: left;
+    padding-top: 17px;
+    float: left;
+    width: 570px;
+    margin-left: -44px;
+}
+
+a.PurchaseButton
+{
+    position: absolute;
+    display: block;
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2017/battlepass/buybutton.png');
+    width: 244px;
+    height: 41px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #060506 !important; /* ??? Works fine locally without, but not on beta */
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 19px;
+    font-family: 'Radiance-SemiBold';
+}
+
+a.PurchaseButton:hover
+{
+    color: #000000 !important; /* ??? Works fine locally without, but not on beta */
+}
+
+a.PurchaseButton:hover:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 244px;
+    height: 60px;
+    background-color: rgba( 255, 255, 255, 0.15 );
+}
+
+.PurchaseSubText
+{
+    position: absolute;
+    font-size: 14px;
+    color: #989087;
+    text-shadow: 1px 1px 2px #000000;
+    text-transform: uppercase;
+    width: 244px;
+}
+
+#Container_01
+{
+    //background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/keyart.png');
+    height: 1140px;
+    background-color: #000000;
+    background-position: bottom center;
+    margin-top: -8px;
+}
+
+#Container_01 .Content
+{
+    position: absolute;
+    width: 1600px;
+    height: 1140px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#Container_01 .Content:before
+{
+    content: '';
+    position: absolute;
+    background-image: url( 'http://cdn.dota2.com/apps/dota2/images/international2017/battlepass/logo.png' );
+    width: 783px;
+    height: 196px;
+    top: 90px;
+    left: 398px;
+}
+
+.lang_schinese #Container_01 .Content:before
+{
+    background-image: url( 'http://cdn.dota2.com/apps/dota2/images/international2017/battlepass/logo_chinese.png' );
+}
+
+
+#Container_02
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_02.png');
+    height: 626px;
+    background-color: #16110a;
+}
+
+#Container_02 .Content a:nth-of-type(1)
+{
+    top: 374px;
+    left: 248px;
+}
+
+#Container_02 .Content a:nth-of-type(2)
+{
+    top: 374px;
+    left: 509px;
+}
+
+#Container_02 .Content div:nth-of-type(1)
+{
+    top: 442px;
+    left: 248px;
+}
+
+#Container_02 .Content div:nth-of-type(2)
+{
+    top: 442px;
+    left: 509px;
+}
+
+#Container_03
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_03.png');
+    height: 1600px;
+    background-color: #020705;
+}
+
+.lang_schinese #Container_03
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_03_chinese.png');
+}
+
+.lang_russian #Container_03
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_03_russian.png');
+}
+
+#Container_03 .Content .ThumbnailContainer > a
+{
+    visibility: visible;
+}
+
+#Container_03 .Content h1.Big.Gold
+{
+    padding-top: 59px;
+    letter-spacing: 10px;
+}
+
+#Container_03 .Content .RightSide
+{
+    position: absolute;
+    top: 260px;
+    margin-left: 514px;
+    width: 420px;
+    text-align: left;
+}
+
+#Container_03 .Content .RightSide h3.White
+{
+    margin-top: -10px;
+    padding-bottom: 44px;
+}
+
+.BabyRoshan_old
+{
+    display: none;
+}
+#Container_03 .Content h2.ActTitle
+{
+    font-family: 'Radiance-SemiBold';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #d2d0cf;
+    letter-spacing: 1.8px;
+    line-height: 18px;
+}
+
+#Container_03 .Content h2.ActSubtitle
+{
+    font-family: 'Radiance';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #7d7170;
+    letter-spacing: 1.8px;
+}
+
+#Container_03 .Content .ActTitle.Act1
+{
+    padding-top: 100px;
+}
+
+#Container_03 .Content .ActTitle.Act2
+{
+    padding-top: 13px;
+}
+
+#Container_03 .Content .RightSide p.DarkGrayDesc
+{
+    padding-top: 27px;
+    color: #8d8180;
+}
+
+#Container_03 .Content div.BabyRoshan
+{
+    position: absolute;
+    left: 29px;
+    top: 1095px;
+    text-align: left;
+}
+
+#Container_04 .Content h2.ActTitle
+{
+    font-family: 'Radiance-SemiBold';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #d2d0cf;
+    letter-spacing: 1.8px;
+    line-height: 18px;
+}
+
+#Container_04 .Content h2.ActSubtitle
+{
+    font-family: 'Radiance';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #7d7170;
+    letter-spacing: 1.8px;
+}
+
+#Container_04 .Content .ActTitle.Act1
+{
+    padding-top: 100px;
+}
+
+#Container_04 .Content .ActTitle.Act2
+{
+    padding-top: 13px;
+}
+
+
+#Container_04 .Content div.BabyRoshan
+{
+    position: absolute;
+    left: 360px;
+    top: 960px;
+    text-align: left;
+}
+
+#Container_03 .Content div:nth-of-type(3)
+{
+    top: 1142px;
+    left: 28px;
+}
+
+#Container_03 .Content div:nth-of-type(4)
+{
+    top: 1142px;
+    left: 349px;
+}
+
+#Container_03 .Content div:nth-of-type(5)
+{
+    top: 1142px;
+    left: 668px;
+}
+
+#Container_03 .Content .ThumbnailContainer p
+{
+    margin-top: 2px;
+}
+
+#Container_03 .Content .ThumbnailContainer
+{
+    margin-top: 180px;
+}
+
+#Container_04
+{
+    background-image: url('http://memesofdota.ru/mainfiles/bg_05.png');
+    height: 1040px;
+    background-color: #000d08;
+}
+
+#Container_04 .Content
+{
+    padding-top: 575px;
+}
+
+#Container_05
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_05.png');
+    height: 520px;
+    background-color: #000806;
+}
+
+#Container_05 .Content
+{
+    top: 88px;
+}
+
+#Container_06
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_06.png');
+    height: 520px;
+    background-color: #030605;
+}
+
+#Container_06 .Content
+{
+    padding-top: 80px;
+}
+
+#Container_07
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_07.png');
+    height: 518px;
+    background-color: #000d08;
+}
+
+#Container_07 .Content
+{
+    padding-top: 90px;
+}
+
+#Container_08
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_08.png');
+    height: 520px;
+    background-color: #030809;
+}
+
+#Container_08 .Content
+{
+    padding-top: 96px;
+}
+
+#Container_09
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_09.png');
+    height: 520px;
+    background-color: #000e07;
+}
+
+#Container_09 .Content
+{
+    padding-top: 94px;
+}
+
+#Container_10
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_10.png');
+    height: 520px;
+    background-color: #020708;
+}
+
+#Container_10 .Content h1
+{
+    line-height: 1.1;
+}
+
+#Container_10 .Content
+{
+    padding-top: 92px;
+}
+
+#Container_10 .Content p b
+{
+    font-family: 'Radiance-SemiBold';
+    font-weight: normal;
+    color: #d2d0cf;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+#Container_14
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_14.png');
+    height: 520px;
+    background-color: #000e07;
+}
+
+#Container_14 .Content
+{
+    padding-top: 94px;
+}
+
+#Container_11
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_11.png');
+    height: 1160px;
+    background-color: #0a1309;
+    -webkit-box-shadow: inset 0px 0px 32px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 32px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 32px 2px rgba(0,0,0,0.75);
+}
+
+#Container_11 .Content
+{
+    padding-top: 46px;
+}
+
+#Container_11 .Content p.Desc
+{
+    font-size: 22px;
+    color: #d2d0cf;
+    letter-spacing: 1.1px;
+    margin: auto;
+}
+
+#Container_11 .Content div:nth-of-type(1)
+{
+    top: 204px;
+    left: 28px;
+}
+
+#Container_11 .Content div:nth-of-type(2)
+{
+    top: 204px;
+    left: 348px;
+}
+
+#Container_11 .Content div:nth-of-type(3)
+{
+    top: 204px;
+    left: 668px;
+}
+
+#Container_11 .Content div:nth-of-type(4)
+{
+    top: 683px;
+    left: 28px;
+}
+
+#Container_11 .Content div:nth-of-type(5)
+{
+    top: 683px;
+    left: 348px;
+}
+
+#Container_11 .Content div:nth-of-type(6)
+{
+    top: 683px;
+    left: 668px;
+}
+
+#Container_12
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_12.png');
+    height: 1440px;
+    background-color: #080504;
+}
+
+#Container_12 .Content
+{
+    padding-top: 82px;
+}
+
+#Container_12 .Content p.Desc
+{
+    padding-top: 3px;
+    font-size: 20px;
+    color: #beb5ae;
+    line-height: 32px;
+    width: 960px;
+    margin-left: 20px;
+}
+
+#Container_12 .Content h1.Gold:not(.Big)
+{
+    position: absolute;
+    top: 324px;
+    width: 100%;
+}
+
+#Container_12 .Content p.TopDesc
+{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 470px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#Container_12 .Content p.BottomDesc
+{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 1100px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#Container_12 .Content p.BottomLevels
+{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 1140px;
+    text-shadow: 1px 1px 3px #000000;
+    //color: #027136;
+    color: #229156;
+    font-size: 16px;
+    font-family: 'Radiance-SemiBold';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+#Container_12 .Content p.BottomLevels b
+{
+    font-weight: normal;
+    font-size: 16px;
+    color: #246c4f;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+#Container_12 .Content p.BottomLevels i
+{
+    font-weight: normal;
+    font-size: 16px;
+    color: #027136;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+#Container_12 .Content .LimitedMarketability
+{
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#Container_12 .Content h3.LimitedMarketability
+{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 1288px;
+}
+
+#Container_12 .Content p.LimitedMarketability
+{
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    margin-left: 100px;
+    top: 1312px;
+    color: #7c7567;
+    line-height: 22px;
+}
+
+#Container_13
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_13.png');
+    height: 880px;
+    background-color: #020c0f;
+}
+
+#Container_13 .Content h1
+{
+    padding-top: 88px;
+}
+
+#Container_13 .Content h3.Exclusive
+{
+    padding-top: 25px;
+}
+
+#Container_13 .LevelTextBlock
+{
+    top: 708px;
+}
+
+#Container_13 p.Footnote
+{
+    top: 802px;
+    color: #fff;
+}
+
+#TerrainCycler
+{
+    position: absolute;
+    top: 252px;
+    left: 99px;
+}
+
+#PrestigeItem
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_prestige_2.png');
+    height: 880px;
+    background-color: #000a06;
+}
+
+#PrestigeItem .Content
+{
+    padding-top: 94px;
+}
+
+#PrestigeItem .Content video
+{
+    padding-top: 20px;
+}
+
+#PrestigeItem .Content h3.Exclusive
+{
+    padding-top: 25px;
+}
+
+#PrestigeItem .LevelTextBlock
+{
+    top: 730px;
+}
+
+#PrestigeItem p.Footnote
+{
+    top: 830px;
+}
+
+#PrestigeItem .Content video
+{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 103px;
+    top: 286px;
+}
+
+#PrestigeItem .LevelTextBlock .DarkGrayDesc
+{
+    width: 540px;
+}
+
+#PrestigeItem .Content:after
+{
+    content: '';
+    position: absolute;
+    background-image: url( 'http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/prestige.png' );
+    width: 750px;
+    height: 726px;
+    top: 146px;
+    right: -344px;
+}
+
+#PrestigeItem .LevelTextBlock .LevelBlock
+{
+    margin-top: 6px;
+}
+
+#EmblemItem
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_emblem.png');
+    height: 880px;
+    background-color: #000;
+}
+
+#EmblemItem .Content
+{
+    padding-top: 90px;
+}
+
+#EmblemItem .Content h3.Exclusive
+{
+    padding-top: 25px;
+}
+
+#EmblemItem .LevelTextBlock
+{
+    top: 750px;
+}
+
+#EmblemItem p.Footnote
+{
+    top: 830px;
+}
+
+#EmblemItem .Content video
+{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 103px;
+    top: 286px;
+}
+
+#EmblemItem .Content p.DarkGrayDesc
+{
+    text-align: center;
+    position: absolute;
+    top: 740px;
+    width: 660px;
+    left: 170px;
+}
+
+#SprayItem
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_spray.png');
+    height: 880px;
+    background-color: #000e07;
+}
+
+#SprayItem .Content
+{
+    padding-top: 92px;
+}
+
+#SprayItem .Content h3.Exclusive
+{
+    padding-top: 25px;
+}
+
+#SprayItem .LevelTextBlock
+{
+    top: 750px;
+}
+
+#SprayItem p.Footnote
+{
+    top: 830px;
+}
+
+#SprayItem .Content p.DarkGrayDesc
+{
+    text-align: center;
+    position: absolute;
+    top: 800px;
+    width: 660px;
+    left: 170px;
+}
+
+
+#Container_29
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_29.png');
+    height: 880px;
+    background-color: #07120d;
+}
+
+#Container_29 .Content
+{
+    padding-top: 126px;
+}
+
+#Container_29 .Content h3.Exclusive
+{
+    padding-top: 25px;
+}
+
+#Container_29 .LevelTextBlock
+{
+    top: 735px;
+    left: 20px;
+}
+
+#Container_29 .Content p.DarkGrayDesc
+{
+    text-align: Left;
+    position: absolute;
+    width: 660px;
+    left: 300px;
+    padding-top: 10px;
+}
+
+#Container_29 p.Footnote
+{
+    top: 820px;
+}
+
+
+#Container_15
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_15.png');
+    height: 880px;
+    background-color: #000;
+}
+
+#Container_15 .Content h1
+{
+    padding-top: 90px;
+}
+
+#Container_15 .Content h1.Gold i
+{
+    font-family: 'Radiance-SemiBold';
+    font-size: 24px;
+    color: #027136;
+    font-style: normal;
+    letter-spacing: 2.7px;
+    padding-right: 8px;
+}
+
+#Container_15 .Content p.DarkGrayDesc
+{
+    text-align: center;
+    position: absolute;
+    top: 700px;
+    width: 660px;
+    left: 170px;
+}
+
+#Container_15 .Content > div:nth-of-type(1)
+{
+    padding-top: 36px;
+}
+
+#Container_15 .ChatWheelSound
+{
+    margin-left: 664px;
+}
+
+#Container_15 .ChatWheelSound > *
+{
+    margin-top: -27px;
+    float: left;
+}
+
+#Container_15 .ChatWheelSound .Shield
+{
+    font-size: 16px;
+    width: 60px;
+    height: 60px;
+    padding-top: 21px;
+}
+
+#Container_15 .ChatWheelSound p
+{
+    margin-left: -3px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #d2d0cf;
+    font-family: 'Radiance-SemiBold';
+    font-style: italic;
+}
+
+#Container_16
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_16.png');
+    height: 880px;
+    background-color: #08120e;
+}
+
+#Container_16 .Content h1
+{
+    padding-top: 88px;
+}
+
+#Container_16 .LevelTextBlock
+{
+    top: 734px;
+}
+
+#Container_16 .LevelTextBlock p.DarkGrayDesc
+{
+    padding-top: 9px;
+}
+
+#Container_17
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_17.png');
+    height: 880px;
+    background-color: #020807;
+}
+
+#Container_17 .Content
+{
+    height: 880px;
+}
+
+#Container_17 .Content h1
+{
+    padding-top: 76px;
+}
+
+#Container_17 .Content > h3
+{
+    position: absolute;
+    width: 175px;
+    padding-right: 50px;
+}
+
+#Container_17 .Content > h3:nth-of-type(1)
+{
+    top: 669px;
+    left: 50px;
+}
+
+#Container_17 .Content > h3:nth-of-type(2)
+{
+    top: 669px;
+    left: 275px;
+}
+
+#Container_17 .Content > h3:nth-of-type(3)
+{
+    top: 669px;
+    left: 500px;
+}
+
+#Container_17 .Content > h3:nth-of-type(4)
+{
+    top: 669px;
+    left: 725px;
+    width: 225px;
+    padding-right: 0px;
+}
+
+#TrustWhatsIncluded
+{
+    position: absolute;
+    top: 692px;
+    left: 744px;
+    width: 201px;
+}
+
+#TrustWhatsIncluded u
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #989087;
+    letter-spacing: 1.5px;
+}
+
+#TrustWhatsIncluded img
+{
+    vertical-align: middle;
+    padding-left: 6px;
+}
+
+#TrustTooltip
+{
+    position: absolute;
+    width: 846px;
+    left: 27px;
+    bottom: 192px;
+    background-color: #000000;
+    border: 1px solid #4d4545;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+#TrustTooltip h3
+{
+    padding-bottom: 30px;
+}
+
+.TrustTooltipColumn
+{
+    text-align: left;
+    float: left;
+    font-size: 16px;
+    color: #7d7170;
+    line-height: 28px;
+}
+
+.TrustTooltipColumns div:nth-of-type( 1 )
+{
+    width: 282px;
+    padding-right: 50px;
+}
+
+.TrustTooltipColumns div:nth-of-type( 2 )
+{
+    width: 282px;
+}
+
+.TrustTooltipColumns div:nth-of-type( 3 )
+{
+    width: 232px;
+}
+
+#Container_17 .LevelTextBlock
+{
+    top: 728px;
+}
+
+#Container_17 .LevelTextBlock p.DarkGrayDesc
+{
+    padding-top: 9px;
+}
+
+#Container_17 .LevelBlockAdditional
+{
+    text-transform: uppercase;
+    width: 140px;
+    font-family: 'Radiance-SemiBold';
+    font-size: 12px;
+    font-weight: bold;
+    color: #337c5f;
+    text-align: right;
+    position: absolute;
+    line-height: 16px;
+    top: 805px;
+    left: 96px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+#Container_18
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_18.png');
+    height: 925px;
+    background-color: #100f13;
+}
+
+#Container_18 .Content
+{
+    padding-top: 92px;
+}
+
+#Container_18 .Content div:nth-of-type( 1 )
+{
+    top: 647px;
+    left: 190px;
+}
+
+#Container_18 .Content div:nth-of-type( 2 )
+{
+    top: 647px;
+    left: 510px;
+}
+
+#Container_18 .Content div:nth-of-type( 3 )
+{
+    top: 647px;
+    left: 830px;
+}
+
+#Container_18 .Content div:nth-of-type( 4 )
+{
+    top: 706px;
+    left: 190px;
+}
+
+#Container_18 .Content div:nth-of-type( 5 )
+{
+    top: 706px;
+    left: 510px;
+}
+
+#Container_18 .Content div:nth-of-type( 6 )
+{
+    top: 706px;
+    left: 830px;
+}
+
+#Container_18 .Content div:nth-of-type( 7 )
+{
+    top: 765px;
+    left: 190px;
+}
+
+#Container_18 .Content div:nth-of-type( 8 )
+{
+    top: 765px;
+    left: 510px;
+}
+
+#Container_18 .Content div:nth-of-type( 9 )
+{
+    top: 765px;
+    left: 830px;
+}
+
+#Container_18 .Content div:nth-of-type( 10 )
+{
+    top: 824px;
+    left: 190px;
+}
+
+#Container_18 .Content div:nth-of-type( 11 )
+{
+    top: 824px;
+    left: 510px;
+}
+
+#Container_18 .Content div:nth-of-type( 12 )
+{
+    top: 824px;
+    left: 830px;
+}
+
+#Container_19
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_19.png');
+    height: 880px;
+    background-color: #030b12;
+}
+
+#Container_19 .Content
+{
+    padding-top: 94px;
+}
+
+#Container_19 .Content video
+{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 103px;
+    top: 246px;
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+}
+
+#Container_19 .Content:after
+{
+    content: '';
+    position: absolute;
+    background-image: url( 'http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/courier.png' );
+    width: 750px;
+    height: 726px;
+    top: 167px;
+    left: -258px;
+}
+
+#Container_19 .UnlocksAtLevels
+{
+    position: absolute;
+    font-family: 'Radiance-SemiBold';
+    font-size: 18px;
+    color: #027136;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    width: 100%;
+    top: 669px;
+    text-shadow: 1px 1px 3px #000000;
+    line-height: 28px;
+}
+
+#Container_19 p.DarkGrayDesc
+{
+    position: absolute;
+    width: 680px;
+    left: 160px;
+    top: 750px;
+    text-align: center;
+}
+
+#Container_20
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_20.png');
+    height: 870px;
+    background-color: #000101;
+}
+
+#Container_20 .Content
+{
+    padding-top: 94px;
+}
+
+#Container_20 .Content h3.White
+{
+    padding-top: 20px;
+}
+
+.RiverContainer .LevelBlock
+{
+    display: inline-block;
+    padding-top: 6px;
+    padding-left: 115px;
+    width: 800px;
+    text-align: left;
+}
+
+.RiverContainer .Level
+{
+    width: 225px;
+}
+
+.RiverContainer img.VialImage
+{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    margin-left: -13px;
+    margin-right: -3px;
+}
+
+#RiverNav
+{
+    z-index: 99;
+    position: absolute;
+    top: 608px;
+    right: 0px;
+    letter-spacing: 5px;
+    margin-right: 105px;
+    font-size: 28px;
+    color: #2d5d69;
+}
+
+#RiverNav a
+{
+    font-size: 28px;
+    color: #2d5d69;
+}
+
+#RiverNav .activeSlide
+{
+    color: #027136 !important;
+}
+
+.VialText
+{
+    font-family: 'Radiance-SemiBold';
+    font-size: 24px;
+    color: #c5c3c3;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#RiverCycler
+{
+    position: absolute;
+    top: 211px;
+    left: 94px;
+}
+
+.RiverContainer > img
+{
+    margin-left: -114px;
+}
+
+#Container_20 p.DarkGrayDesc
+{
+    position: absolute;
+    width: 680px;
+    left: 160px;
+    top: 745px;
+    text-align: center;
+}
+
+#Container_21
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_21.png');
+    height: 880px;
+    background-color: #000;
+}
+
+#Container_21 .Content .Gold
+{
+    padding-top: 105px;
+    padding-bottom: 32px;
+}
+
+#Container_21 .Content .Desc
+{
+    font-size: 22px;
+    color: #d2d0cf;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+
+#Container_11 .Content .Desc
+{
+    font-size: 22px;
+    color: #d2d0cf;
+    letter-spacing: 1.1px;
+    margin: auto;
+}
+
+#Container_22
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_22.png');
+    height: 880px;
+    background-color: #000;
+}
+
+#Container_22 .Content .Gold
+{
+    padding-top: 114px;
+}
+
+#Container_22 .Content .DarkGrayDesc
+{
+    position: absolute;
+    top: 738px;
+    left: 190px;
+    right: 190px;
+    width: 620px;
+    text-align: center;
+}
+
+#Container_23
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_23.png');
+    height: 880px;
+    background-color: #000;
+}
+
+#Container_23 .Content .Gold
+{
+    padding-top: 102px;
+}
+
+#Container_23 .Content .LevelBlock
+{
+    position: absolute;
+    top: 580px;
+    left: 170px;
+}
+
+#Container_23 .Content .LevelRoshan
+{
+    position: absolute;
+    top: 580px;
+    Left: 480px;
+}
+
+#Container_23 .Content .DarkGrayDesc
+{
+    position: absolute;
+    top: 690px;
+    left: 190px;
+    right: 190px;
+    width: 620px;
+    text-align: center;
+}
+
+#Container_23 .Content .DarkGrayDesc b
+{
+    text-transform: uppercase;
+    color: #d2d0cf;
+    font-family: 'Radiance-SemiBold';
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+
+#Container_24
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_24.png');
+    height: 376px;
+    background-color: #000000;
+}
+    
+#Container_24 .Content a:nth-of-type(1)
+{
+    top: 102px;
+    left: 248px;
+}
+
+#Container_24 .Content a:nth-of-type(2)
+{
+    top: 102px;
+    left: 509px;
+}
+
+#Container_24 .Content div:nth-of-type(1)
+{
+    top: 170px;
+    left: 248px;
+}
+
+#Container_24 .Content div:nth-of-type(2)
+{
+    top: 170px;
+    left: 509px;
+}
+
+#Container_25
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2017/battlepass/bg_25.jpg');
+    height: 310px;
+    background-color: #000000;
+}
+
+#Container_26
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_26.png');
+    height: 880px;
+    background-color: #010000;
+}
+
+#Container_26 .Content
+{
+    top: 108px;
+}
+
+#Container_26 .Content .Desc
+{
+    font-size: 22px;
+    color: #d2d0cf;
+    letter-spacing: 1.1px;
+}
+
+#Container_26 .Content .DarkGrayDesc
+{
+    position: absolute;
+    top: 680px;
+    left: 160px;
+    right: 190px;
+    width: 700px;
+    text-align: center;
+}
+
+#Container_27
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_27.png');
+    height: 880px;
+    background-color: #000e07;
+}
+
+#Container_27 .Content .Gold
+{
+    padding-top: 105px;
+    padding-bottom: 60px;
+}
+
+#Container_27 .Content .Desc
+{
+    font-size: 22px;
+    color: #d2d0cf;
+    letter-spacing: 1.1px;
+}
+
+#Container_27 .Content .DarkGrayDesc
+{
+    text-align: center;
+    padding-top: 130px;
+}
+
+#Container_27 .BattlePointTributeLevel
+{
+    padding-top: 110px;
+    padding-left: 740px;
+}
+
+#Container_21 .Content .Desc
+{
+    font-size: 22px;
+    color: #d2d0cf;
+    letter-spacing: 1.1px;
+}
+
+#Container_28
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_28.png');
+    height: 516px;
+    background-color: #020708;
+}
+
+#Container_28 .Content
+{
+    padding-top: 140px;
+}
+
+
+#Container_30
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2018/battlepass/bg_30.png');
+    height: 516px;
+    background-color: #08120e;
+}
+
+#Container_30 .Content
+{
+    padding-top: 94px;
+}
+
+/* Bottom Item Effects Slider */
+
+#ItemEffectsContainer
+{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    height: 510px;
+    overflow: hidden;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 29px;
+}
+
+.ItemEffect
+{
+    text-align:center;
+    align-content: center;
+    width: 800px;
+    position: absolute;
+    top: 100px;
+    display: inline-block;
+    z-index: 99;
+    height: 485px;
+}
+
+.ItemEffectTitle
+{
+    padding-top: 16px;
+    color: #c5c3c3;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Radiance-SemiBold';
+}
+
+.ItemEffectTransition
+{
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+}
+
+#ItemEffectSelector
+{
+    text-align:center;
+    vertical-align: top;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 910px;
+    color:#ba9e88;
+    text-transform:uppercase;
+    font-size:22px;
+    position: relative;
+    z-index: 997;
+    overflow: hidden;
+    padding-right: 70px;
+    padding-left: 70px;
+    height: auto;
+}
+
+#ItemEffectSelector img
+{
+    cursor: pointer;
+    display: inline-block;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+}
+
+#ItemEffectSelectorInnerContainer
+{
+    position: relative;
+    display: inline-block;
+    text-align:center;
+    vertical-align: top;
+    margin-left:auto;
+    margin-right:auto;
+    width: 720px;
+    color:#ba9e88;
+    text-transform:uppercase;
+    height: 300px;
+}
+
+#ItemEffectSelectorInnerContainer img
+{
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.ItemEffectSelectorInner
+{
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    width: 660px;
+    height: 300px;
+    color:#ba9e88;
+    text-transform:uppercase;
+    font-size:22px;
+}
+
+.ItemEffectSelectorInner img
+{
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.ItemEffectSelectorIcon
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.ItemEffectSelected
+{
+    left: 0px !important;
+    display: block !important;
+}
+
+.ItemEffectsImageContainer
+{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    position: relative;
+}
+
+.activeSlide img
+{
+    border-width: 2px;
+    border-color: #9f8364;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 0px !important;
+}
+
+.ItemEffectImage
+{
+    cursor: pointer;
+}
+
+#ItemEffectsSelectorWrapper
+{
+    width: 1060px;
+    display: block;
+    position: relative;
+    top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ItemEffectsNav
+{
+    display: inline-block;
+    position: relative;
+}
+
+#ItemEffectsNext
+{
+    padding-left: 15px;
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    cursor: pointer;
+}
+
+#ItemEffectsPrev
+{
+    padding-right: 15px;
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    cursor: pointer;
+}
+
+.ItemEffectsVideo
+{
+    width: 800px;
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+}
+
+#ItemEffectBlock
+{
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ItemEffectsNavLevel
+{
+    margin-left: -3px;
+    width: 51px;
+    height: 38px;
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 4px;
+    letter-spacing: normal;
+    color: #044c2f;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #111111;
+    font-family: 'Radiance-SemiBold';
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.activeSlide .ItemEffectsNavLevel
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2017/battlepass/shield_gold.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #d6c8b1;
+}
+
+/* Immortals */
+
+#TreasureNames
+{
+    text-align:center;
+    align-content: center;
+    top: 417px;
+    left: 100px;
+    right: 100px;
+    display: inline-block;
+    z-index: 99;
+    width: 800px;
+    height: 24px;
+    position: absolute;
+}
+
+.TreasureNamesText
+{
+    cursor: pointer;
+}
+
+.TreasureNamesText,
+.TreasureNamesTextDisabled
+{
+    display: inline-block;
+    color:#7d7170;
+    text-transform:uppercase;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline;
+    z-index: 99;
+    font-family:'Radiance-SemiBold';
+}
+
+.TreasureNamesText img,
+.TreasureNamesTextDisabled img,
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.TreasureSelected:hover
+{
+    color:#ffffff;
+}
+
+.TreasureSelected
+{
+    opacity: 1.0;
+    color:#ece6e0;
+}
+
+.TreasureDivider
+{
+    font-family:'Radiance-Bold';
+    color: #7d7170;
+    font-size: 18px;
+}
+
+#TreasureContainer
+{
+    text-align:center;
+    align-content: center;
+    vertical-align: bottom;
+    width: 1600px;
+    height: 800px;
+    position: relative;
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+    overflow: hidden;
+    left: -300px;
+    top: 80px;
+    z-index: 1;
+}
+
+.TreasureContent
+{
+    text-align:center;
+    align-content: center;
+    width: 1000px;
+    position: absolute;
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+    top: 100px;
+    display: inline-block;
+    z-index: 99;
+    height: 485px;
+    margin-left: 300px;
+    margin-top: 82px;
+}
+
+#TreasureContent video
+{
+    height: 400px;
+}
+
+.TreasureDivSelected
+{
+    left: 0px !important;
+    opacity: 1.0 !important;
+}
+
+.SlideOut
+{
+    transition: opacity .5s ease-in-out, left .5s ease;
+    -moz-transition: opacity .5s ease-in-out, left .5s ease;
+    -webkit-transition: opacity .5s ease-in-out, left .5s ease;
+    opacity: 0;
+}
+
+.SlideIn
+{
+    left: 0px !important;
+    transition: opacity .5s ease-in-out, left .5s ease;
+    -moz-transition: opacity .5s ease-in-out, left .5s ease;
+    -webkit-transition: opacity .5s ease-in-out, left .5s ease;
+    opacity: 1.0;
+}
+
+.OffPageLeft
+{
+    left: -2000px !important;
+}
+
+.OffPageRight
+{
+    left: 2000px !important;
+}
+
+.OffPageLeftItem
+{
+    left: -800px !important;
+}
+
+.OffPageRightItem
+{
+    left: 800px !important;
+}
+
+.HeroContent
+{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    opacity: 0;
+}
+
+.HeroDivSelected
+{
+    left: 0px !important;
+    display: block !important;
+    opacity: 1.0 !important;
+}
+
+.RewardHeroImage
+{
+    position: absolute;
+    top: 20px;
+    left: -175px;
+    width: 519px;
+    height: 552px;
+    z-index: 20;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.RewardHeroImage img
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 3;
+}
+
+.HeroTreasureVideo
+{
+    height: 400px;
+    width: 800px;
+    -webkit-box-shadow: 10px 10px 20px #000000;
+    -moz-box-shadow: 10px 10px 20px #000000;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+.GoalRewardTitle
+{
+    color:#ece6e0;
+    text-transform:uppercase;
+    font-size:24px;
+    letter-spacing:3px;
+    padding-top: 25px;
+    z-index: 91;
+    position: relative;
+}
+
+.GoalRewardDesc
+{
+    color:#7d7170;
+    font-size:18px;
+    letter-spacing:0.5px;
+    padding-top: 4px;
+    text-transform: none;
+    margin-right:auto;
+    z-index: 90;
+    position: relative;
+}
+
+#TreasureHeroSelector
+{
+    text-align:center;
+    vertical-align: top;
+    width: 910px;
+    left: 45px;
+    right: 45px;
+    color:#ba9e88;
+    text-transform:uppercase;
+    font-size:22px;
+    position: absolute;
+    z-index: 997;
+    overflow: hidden;
+    position: absolute;
+    top: 1035px;
+    height: auto;
+}
+
+#TreasureHeroSelector img
+{
+    cursor: pointer;
+    display: inline-block;
+    z-index: 9999;
+}
+
+#TreasureHeroSelectorInnerContainer
+{
+    position: relative;
+    display: inline-block;
+    text-align:center;
+    vertical-align: top;
+    margin-left:auto;
+    margin-right:auto;
+    width: 760px;
+    color:#ba9e88;
+    text-transform:uppercase;
+    height: 100px;
+}
+
+.TreasureHeroSelectorInner
+{
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    width: 760px;
+    height: 300px;
+    color: #ba9e88;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.TreasureHeroSelectorInner img
+{
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.HeroSelectorIcon
+{
+    display: inline-block;
+    height: 37px;
+    width: 63px;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.HeroSelectorIcon:hover .HeroSelectorTooltip
+{
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.heroSelected
+{
+    border-width: 2px;
+    border-color: #027136;
+    border-style: solid;
+    padding: 0px !important;
+}
+
+.heroNotSelected
+{
+    border-width: 0px !important;
+    border-style: none !important;
+}
+
+.HeroSelectorTooltip
+{
+    background-image: url('http://cdn.dota2.com/apps/dota2/images/international2017/battlepass/tooltip.png');
+    background-size: contain;
+    background-position:top center;
+    background-repeat:no-repeat;
+    position: absolute;
+    opacity: 0;
+    height: 57px !important;
+    width: 160px !important;
+    font-size:16px;
+    text-transform: none;
+    letter-spacing:0px;
+    z-index: 99;
+    margin-left: -85px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    pointer-events:none;
+    color: #d2d0cf;
+}
+
+.HeroSelectorIcon:hover .HeroSelectorTooltip
+{
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.RareHeroSelected
+{
+    background: linear-gradient(-45deg, rgba(127,180,64,1) 0%, rgba(56,81,38,1) 49%, rgba(127,180,64,1) 100%);
+}
+
+.VeryRareHeroSelected
+{
+    background: linear-gradient(-45deg, rgba(84,57,38,1) 0%, rgba(180,148,105,1) 49%, rgba(84,57,38,1) 100%);
+}
+
+.RareGoldHeroSelected
+{
+    background: linear-gradient(-45deg, rgba(161,81,19,1) 0%, rgba(247,202,78,1) 49%, rgba(161,81,19,1) 100%);
+}
+
+.PurpleHeroSelected
+{
+    background: linear-gradient(-45deg, rgba(88,46,165,1) 0%, rgba(136,71,255,1) 49%, rgba(88,46,165,1) 100%);    
+}
+
+.treasureNotUnlocked
+{
+    color: #6a6969;
+    cursor: default;
+}
+
+/* Reward List */
+
+#FullRewardListButton
+{
+    top: 296px;
+    width: 400px;
+    left: 276px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    padding: 16px;
+    border: 1px solid #333333;
+}
+
+#FullRewardList
+{
+    display: none;
+}
+
+#FullRewardList .Content
+{
+    text-align: left;
+    border: 1px solid #333333;
+    color: #707070;
+    line-height: 32px;
+    font-size: 16px;
+    width: 600px;
+    padding: 35px;
+    padding-left: 20px;
+}
+
+#FullRewardList.Visible
+{
+    display: block;
+}
+
+.neededPanelMOD
+{
+	width: 300px;
+	height: 500px;
+	background-color: white;
+}
